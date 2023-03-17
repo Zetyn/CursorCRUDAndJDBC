@@ -36,7 +36,7 @@ public class PilotServiceImpl implements PilotService {
     }
 
     @Override
-    public void add(Scanner scanner) throws SQLException {
+    public void add(Scanner scanner) {
         System.out.println("Enter the pilot name:");
         String name = scanner.nextLine();
 
@@ -53,7 +53,7 @@ public class PilotServiceImpl implements PilotService {
     }
 
     @Override
-    public void update(Scanner scanner) throws SQLException {
+    public void update(Scanner scanner) {
         System.out.println("\nEnter the pilot ID to update the information:");
         int id = scanner.nextInt();
 
@@ -73,7 +73,7 @@ public class PilotServiceImpl implements PilotService {
     }
 
     @Override
-    public void deleteById(Scanner scanner) throws SQLException {
+    public void deleteById(Scanner scanner) {
         System.out.println("\nEnter pilot ID to delete:");
         int id = scanner.nextInt();
 

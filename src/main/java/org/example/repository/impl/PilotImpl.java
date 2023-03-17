@@ -1,7 +1,6 @@
 package org.example.repository.impl;
 
 import org.example.ConnectionDB;
-import org.example.models.Airplane;
 import org.example.models.Pilot;
 import org.example.repository.PilotRepository;
 

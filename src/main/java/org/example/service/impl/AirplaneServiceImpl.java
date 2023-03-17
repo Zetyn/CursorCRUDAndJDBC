@@ -45,7 +45,7 @@ public class AirplaneServiceImpl implements AirplaneService {
     }
 
     @Override
-    public void addAirplaneModel(Scanner scanner) throws SQLException {
+    public void addAirplaneModel(Scanner scanner) {
         System.out.println("Enter the model name:");
         String model = scanner.nextLine();
 
@@ -58,7 +58,7 @@ public class AirplaneServiceImpl implements AirplaneService {
     }
 
     @Override
-    public void deleteAirplaneModelById(Scanner scanner) throws SQLException {
+    public void deleteAirplaneModelById(Scanner scanner) {
         System.out.println("\nEnter the model id:");
         int id = scanner.nextInt();
 
@@ -92,7 +92,7 @@ public class AirplaneServiceImpl implements AirplaneService {
     }
 
     @Override
-    public void update(Scanner scanner) throws SQLException {
+    public void update(Scanner scanner) {
         System.out.println("\nEnter the airplane ID to update the information:");
         int id = scanner.nextInt();
 
@@ -115,7 +115,7 @@ public class AirplaneServiceImpl implements AirplaneService {
     }
 
     @Override
-    public void deleteById(Scanner scanner) throws SQLException {
+    public void deleteById(Scanner scanner) {
         System.out.println("\nEnter airplane ID to delete:");
         int id = scanner.nextInt();
 
